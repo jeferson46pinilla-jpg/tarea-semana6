@@ -1,0 +1,18 @@
+POST http://localhost:3000/registro
+content-type: application/json
+
+{
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+
+### EJEMPLO INCIDENCIA
+POST http://localhost:3000/incidencia
+content-type: application/json
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
